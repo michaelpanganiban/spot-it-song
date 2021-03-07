@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 07, 2021 at 10:22 AM
+-- Generation Time: Mar 07, 2021 at 11:47 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.3.27
 
@@ -88,10 +88,7 @@ CREATE TABLE `songs` (
 --
 
 INSERT INTO `songs` (`song_id`, `title`, `lyrics`, `author`, `created_by`, `created_at`, `modified_by`, `modified_at`) VALUES
-(1, 'Unwell', 'All day starin\' at the ceilin\' makin\'\r\nFriends with shadows on my wall\r\nAll night hearing voices tellin\' me\r\nThat I should get some sleep\r\nBecause tomorrow might be good for somethin\'\r\nHold on, feelin\' like I\'m headed for a breakdown\r\nAnd I don\'t know why\r\nBut I\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be, me\r\nI\'m talkin\' to myself in public, dodging glances on the train\r\nAnd I know, I know they\'ve all been talkin\' about me\r\nI can hear them whisper, and it makes me think\r\nThere must be somethin\' wrong with me\r\nOut of all the hours thinkin\', somehow I\'ve lost my mind\r\nBut I\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be\r\nI\'ve been talkin\' in my sleep\r\nPretty soon they\'ll come to get me\r\nYeah, they\'re takin\' me away\r\nI\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be yeah, how I used to be\r\nHow I used to be\r\nHow I used to be\r\nWell, I\'m just a little unwell\r\nHow I used to be\r\nHow I used to be\r\nI\'m just a little unwell...', 'Matchbox Twenty', 1, '2021-03-06 23:08:41', NULL, NULL),
-(3, 'sfsdhsha', 'klsdjflsdfjsdf', 'hsdjahsdj', 1, '2021-03-07 00:34:03', NULL, NULL),
-(4, 'Hahahah', 'Hahahah', 'Hahahah', 1, '2021-03-07 00:38:36', 1, '2021-03-07 01:06:03'),
-(5, 'newww', 'newww', 'newww', 1, '2021-03-07 00:38:53', 1, '2021-03-07 01:05:37');
+(1, 'Unwell', 'All day starin\' at the ceilin\' makin\'\r\nFriends with shadows on my wall\r\nAll night hearing voices tellin\' me\r\nThat I should get some sleep\r\nBecause tomorrow might be good for somethin\'\r\nHold on, feelin\' like I\'m headed for a breakdown\r\nAnd I don\'t know why\r\nBut I\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be, me\r\nI\'m talkin\' to myself in public, dodging glances on the train\r\nAnd I know, I know they\'ve all been talkin\' about me\r\nI can hear them whisper, and it makes me think\r\nThere must be somethin\' wrong with me\r\nOut of all the hours thinkin\', somehow I\'ve lost my mind\r\nBut I\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be\r\nI\'ve been talkin\' in my sleep\r\nPretty soon they\'ll come to get me\r\nYeah, they\'re takin\' me away\r\nI\'m not crazy, I\'m just a little unwell\r\nI know, right now you can\'t tell\r\nBut stay a while and maybe then you\'ll see\r\nA different side of me\r\nI\'m not crazy, I\'m just a little impaired\r\nI know, right now you don\'t care\r\nBut soon enough you\'re gonna think of me\r\nAnd how I used to be yeah, how I used to be\r\nHow I used to be\r\nHow I used to be\r\nWell, I\'m just a little unwell\r\nHow I used to be\r\nHow I used to be\r\nI\'m just a little unwell...', 'Matchbox Twenty', 1, '2021-03-06 23:08:41', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -167,7 +164,7 @@ ALTER TABLE `songs`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
